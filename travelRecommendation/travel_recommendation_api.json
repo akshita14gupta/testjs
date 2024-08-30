@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Tropical Paradise Beach",
+    "description": "A stunning white sand beach with crystal clear waters, perfect for relaxation and water activities.",
+    "imageUrl": "beach1.jpg",
+    "rating": 4.8,
+    "type": "beach"
+  },
+  {
+    "name": "Sunset Cove Beach",
+    "description": "Known for its breathtaking sunsets and calm waters, ideal for romantic getaways.",
+    "imageUrl": "beach2.jpg",
+    "rating": 4.6,
+    "type": "beach"
+  },
+  {
+    "name": "Ancient Temple of Wisdom",
+    "description": "A centuries-old temple showcasing intricate architecture and rich cultural heritage.",
+    "imageUrl": "temple1.jpg",
+    "rating": 4.7,
+    "type": "temple"
+  },
+  {
+    "name": "Serene Mountain Temple",
+    "description": "Nestled in the mountains, this peaceful temple offers spiritual retreats and meditation sessions.",
+    "imageUrl": "temple2.jpg",
+    "rating": 4.5,
+    "type": "temple"
+  },
+  {
+    "name": "Japan",
+    "description": "A fascinating blend of ancient traditions and cutting-edge technology, offering unique cultural experiences.",
+    "imageUrl": "country1.jpg",
+    "rating": 4.9,
+    "type": "country",
+    "timezone": "Asia/Tokyo"
+  },
+  {
+    "name": "Italy",
+    "description": "Home to world-renowned art, architecture, and cuisine, Italy offers a rich historical and gastronomic journey.",
+    "imageUrl": "country2.jpg",
+    "rating": 4.8,
+    "type": "country",
+    "timezone": "Europe/Rome"
+  }
+]

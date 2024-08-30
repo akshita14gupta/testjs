@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelWise - Your Ultimate Travel Companion</title>
+   <link rel="stylesheet" href="index.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/201/201623.png" alt="TravelWise Logo">
+            TravelWise
+        </div>
+        <div>
+            <a href="#home">Home</a>
+            <a href="about_us.html">About Us</a>
+            <a href="contact_us.html">Contact Us</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search for beach, temple, or country">
+            <button id="search-button" >Search</button>
+            <button id="reset-button" >Reset</button>
+            <!-- <button id="clear-button">Clear</button> -->
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Welcome to TravelWise</h1>
+        <p>Discover your next adventure with TravelWise - your ultimate travel companion. We provide personalized travel recommendations based on your preferences, helping you explore the world's most beautiful destinations.</p>
+        <p>Whether you're looking for a relaxing beach getaway, an exciting city tour, or an adventurous mountain trek, TravelWise has got you covered. Start your journey today!</p>
+    </div>
+
+    <div id="results-container"></div>
+
+    <div class="social-icons">
+        <a href="#"><img src="./twitter.png" alt="Twitter" /></a>
+        <a href="#"><img src="./facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="./insta.jpg" alt="Instagram" /></a>
+
+    </div>
+    <script src="./travel_recommendation.js"></script>
+</body>
+</html>
